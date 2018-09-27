@@ -1,0 +1,99 @@
+/*最顶上的div*/
+ div.top{
+    height:30px;
+ }
+/*中间输入框的长度*/
+ .input1{
+    width:400px;
+    height:30px;
+     vertical-align: middle;
+}
+/*改变字体大小,颜色*/
+span.my_font{
+    font-size:20px;
+    color:blue;
+}
+p.my_font{
+    font-size:25px;
+    color:red;
+}
+/*a标签内的字体内容鼠标悬停时样式*/
+a:hover{
+    text-decoration:none;
+
+}
+
+/*xxx*/
+.header{
+
+    height:120px;
+    width: 100%;
+    margin-top: 10px;
+}
+.header div{
+    float:left;
+    padding-botttom:20px;
+}
+.header .logo{
+    line-height: 120px;
+}
+.header .input{
+    width: 40%;
+    height: 100%;
+    margin-left: 40px;
+}
+.header input{
+    height: 30px;
+    width: 80%;
+    margin-top: 45px;
+    border:red 3px solid;
+    outline: 0;
+    padding:0 10px 0 10px;
+    font-size: 14px;
+}
+.header .input nav{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.header .input nav a{
+    color: #333;
+    font-family: "微软亚黑";
+}
+.header .input nav a:not(:nth-child(1)){
+    margin-left: 10px;
+}
+
+.header button{
+    width: 70px;
+    margin-left: -10px;
+    background: red;
+    color: white;
+    height: 30px;
+    border:0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.phone{
+    height: 100%;
+    margin-left: 120px;
+}
+.phone h6{
+   margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 15px;
+}
+.phone b{
+    color: red;
+    font-size: 18px;
+    font-family: "微软亚黑";
+    font-weight: normal;
+}
+/*顶部导航的字体颜色*/
+ul li a{
+    color:#333;
+    vertical-align:middle;
+}
+
+
+

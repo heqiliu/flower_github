@@ -1,0 +1,11 @@
+/*底部链接字体颜色*/
+ul li a{
+    color:red;
+}
+/*底部p标签*/
+p{
+    display:block;
+    margin:3px ;
+
+
+}

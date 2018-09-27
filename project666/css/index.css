@@ -1,0 +1,22 @@
+/*顶部导航鼠标悬停*/
+div.container{
+    margin-left:80px;
+}
+a.nav-link:hover{
+    background:white;
+    color:red;
+    font-size:25px;
+    font-weight:bold;
+}
+/*全部商品分类字体放大*/
+ul li:first-child{
+    font-size:25px;
+}
+ul li a{
+    padding-top:2px;
+}
+/*轮播图片大小*/
+img{
+    width:75%;
+    height:600px;
+}

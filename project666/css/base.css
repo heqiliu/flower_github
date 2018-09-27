@@ -1,0 +1,23 @@
+body{
+    background:#f5f5f5;
+    margin:0;
+    padding:0;
+}
+/*设置小字体*/
+.my_font{
+    font-size:0.8rem;
+}
+/*设置头部文件宽度*/
+.my_header_width{
+    width:100%;
+}
+/*a链接字体变小,去下划线*/
+ a{
+    font-size:0.8rem;
+     color:#333;
+
+}
+ a:hover{
+     text-decoration:none;
+ }
+
